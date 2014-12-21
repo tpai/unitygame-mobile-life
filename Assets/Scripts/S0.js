@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
 function Start () {
-	Screen.SetResolution(270, 480, false, 60);
+	Screen.SetResolution(270, 480, true, 60);
 }
 
 function OnMouseDown () {
