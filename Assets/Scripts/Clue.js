@@ -6,7 +6,7 @@ function OnMouseDown () {
 	if(!found) {
 		found = true;
 		transform.parent.SendMessage("FoundClue");
-		audio.Play();
+		GetComponent.<AudioSource>().Play();
 	}
 }
 
